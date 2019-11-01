@@ -20,6 +20,3 @@ steps:
   commands:
   - echo bonjour
   - echo monde
-
-trigger:
-  cron: [ 0 * * * * ]
