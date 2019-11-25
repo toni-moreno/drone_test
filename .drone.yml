@@ -5,7 +5,7 @@ name: greeting
 steps:
 - name: en
   image: alpine
-  shm_size: 256m
+  shm-size: 256m
   commands:
   - echo hello
   - echo world
